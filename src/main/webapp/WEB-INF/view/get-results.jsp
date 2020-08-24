@@ -7,6 +7,7 @@
 <title>Main-Menu</title>
 </head>
 <body>
-		<h4>Welcome User : ${param.username} </h4><br>
+		<h5>Message for you is - </h5><hr>
+		<h3 style="color:green">${results}</h3>
 </body>
 </html>
