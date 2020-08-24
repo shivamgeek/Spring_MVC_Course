@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
+@RequestMapping("/search")
 public class SearchController {
 
 	@RequestMapping("search-page")
@@ -25,7 +26,7 @@ public class SearchController {
 	
 	@RequestMapping("get-results-param")
 	public String getResults_param(@RequestParam("username") String username, Model model) {
-		username = "Hey "+username.toUpperCase()+"!, congrats for doing so much Hard Work !!!";
+		username = "Hey "+username.toUpperCase()+"! congrats for doing so much Hard Work !!!";
 		model.addAttribute("results",username);
 		return "get-results";
 	}

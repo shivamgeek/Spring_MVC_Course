@@ -8,6 +8,6 @@
 </head>
 <body>
 	<h1>Welcome to Main-Menu page!!!</h1><br><hr><br>
-	<a href="search-page">Go to Search Page</a>
+	<a href="../search/search-page">Go to Search Page</a>
 </body>
 </html>
