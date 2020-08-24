@@ -7,7 +7,9 @@
 <title>Main-Menu</title>
 </head>
 <body>
-	<h1>Welcome to Main-Menu page!!!</h1><br><hr><br>
-	<a href="search-page">Go to Search Page</a>
+	<form action="search-results" method="GET">
+		<input type="text" name="username" placeholder="Enter your Name">
+		<input type="submit" >
+	</form>
 </body>
 </html>

@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+    pageEncoding="ISO-8859-1" isELIgnored="false" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,7 +7,6 @@
 <title>Main-Menu</title>
 </head>
 <body>
-	<h1>Welcome to Main-Menu page!!!</h1><br><hr><br>
-	<a href="search-page">Go to Search Page</a>
+		<h4>Welcome User : ${param.username} </h4><br>
 </body>
 </html>
