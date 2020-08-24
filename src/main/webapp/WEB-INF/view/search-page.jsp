@@ -7,7 +7,7 @@
 <title>Main-Menu</title>
 </head>
 <body>
-	<form action="get-results" method="GET">
+	<form action="get-results-param" method="GET">
 		<input type="text" name="username" placeholder="Enter your Name">
 		<input type="submit" >
 	</form>
