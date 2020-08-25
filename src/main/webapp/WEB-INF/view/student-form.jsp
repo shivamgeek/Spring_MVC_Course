@@ -14,6 +14,13 @@
 	<br>
 	Enter Last Name : <form:input path="lastName" />
 	<br>
+	
+	<form:select path="country">
+		<form:option value="india" label="India" />
+		<form:option value="japan" label="Japan" />
+		<form:option value="south_korea" label="South Korea" />
+		<form:option value="united_states" label="USA" />
+	</form:select>
 	<input type="submit" value="Register" />
 	</form:form>
 

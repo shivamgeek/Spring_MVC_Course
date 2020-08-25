@@ -9,8 +9,7 @@
 <body>
 
 	<h3>
-		Student Confirmed !<br>
-		First Name : ${studentModel.firstName} ${studentModel.lastName}
+		Dear ${studentModel.firstName} ${studentModel.lastName} from ${studentModel.country} your registration is confirmed !!!
 	</h3>
 
 </body>
