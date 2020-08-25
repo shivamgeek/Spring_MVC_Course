@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+    pageEncoding="ISO-8859-1" isELIgnored="false" %>
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <!DOCTYPE html>
 <html>
@@ -16,10 +16,7 @@
 	<br>
 	
 	<form:select path="country">
-		<form:option value="india" label="India" />
-		<form:option value="japan" label="Japan" />
-		<form:option value="south_korea" label="South Korea" />
-		<form:option value="united_states" label="USA" />
+		<form:options items="${studentModel.countryOptions}" />
 	</form:select>
 	<input type="submit" value="Register" />
 	</form:form>
